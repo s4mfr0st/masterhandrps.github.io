@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Master Hand RPS</title>
+</head>
+<body>
+
+    <div id='gameContainer'>
+
+        <h1 id='gameInfo'>MASTER HAND RPS</h1>
+
+        <div id='cardBox'>
+
+        
+
+            <div id='playerBox' class='card'>
+                <img id='player-card' src='card-back2.png'>
+            </div>
+    
+            <div id='computerBox' class='card'>
+                <img id='computer-card' src='card-back2.png'>
+            </div>
+
+        </div>
+    
+        <div id='buttonContainer'>
+
+            <div id='player-self-box' class='selfBox'>
+                <img id='player-self' class='' src='player-self.png'>
+            </div>
+            
+            <button onclick='playGame(1)'>Rock</button>
+            <button onclick='playGame(2)'>Paper</button>
+            <button onclick='playGame(3)'>Scissors</button>
+
+            <div id='computer-self-box' class='selfBox'>
+                <img id='computer-self' class='' src='computer-self.png'>
+            </div>
+            
+        </div>
+
+    </div>
+    
+</body>
+<script src='script.js'></script>
+</html>

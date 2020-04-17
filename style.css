@@ -1,0 +1,149 @@
+body {
+    text-align: center;
+    overflow: hidden;
+    position: static;
+}
+
+#gameContainer {
+   border-style: solid;
+   border-color: style;
+   max-width: 60%;
+   left: 5px;
+   right: 5px;
+   text-align: center;
+   padding: 10px;
+   overflow: hidden;
+   position: absolute;
+   background-image: url(cloudloop.gif);
+   background-size: cover;
+   
+}
+
+#playerBox {
+    left: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#computerBox {
+    right: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#newGame {
+    padding: 10px;
+    width: 100px;
+}
+
+.card {
+    border-style: solid;
+    border-color: #020202;
+    padding: 10px;
+    border-radius: 500px;
+    background: white;
+}
+
+h1 { 
+    width: 70%;
+    background-image: url(rays.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-color: #020202;
+    padding: 10px;
+    font-family: Kabel, serif;
+    font-weight: 1000;
+    font-size: 300%;
+    color: white;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+#cardBox {
+   max-width: 100%;
+   height: 250px;
+   background: rgba(0,0,0,0.0);
+   column-count: 2;
+   padding: 10px;
+   text-align: center;
+}
+
+#buttonContainer {
+    padding: 10px;
+    border-style: solid;
+    border-color: #020202;
+    background-image: url(rays2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: auto;
+    display: inline-block;
+}
+
+button {
+    padding: 10px;
+    height: 75px;
+    width: 75px;
+    background: #473198;
+    color: white;
+}
+
+button:hover {
+    padding: 10px;
+    height: 75px;
+    width: 75px;
+    background: #9B287B;
+}
+
+#player-self-box {
+    float: left;
+}
+
+#computer-self-box {
+    float: right;
+    opacity: 100%;
+}
+
+.selfBox {
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-color: #020202;
+    background: white;
+    
+}
+
+#player-self {
+    opacity: 100%;
+}
+
+#player-self-lost {
+    opacity: 40%;
+}
+
+#computer-self {
+    opacity: 100%;
+}
+
+#computer-self-lost {
+    opacity: 40%;
+}
+
+.selfBoxLost {
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-color: #020202;
+    background: white;
+    opacity: 40%;
+}
+
+#background {
+    height: 500%;
+    width: 500%;
+    overflow: hide;
+    display: inline-block;
+    z-index: -1;
+    background: black;
+}
